@@ -1,0 +1,6 @@
+TestConfigurations/FrameworkUtility.class
+TestConfigurations/ExcelLib.class
+TestConfigurations/BaseTest.class
+TestSuites/DataStream/GETMetricsSummary.class
+TestConfigurations/AllureLogger.class
+TestConfigurations/FrameworkConstants.class

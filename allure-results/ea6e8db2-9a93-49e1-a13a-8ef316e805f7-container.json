@@ -1,0 +1,1 @@
+{"uuid":"ea6e8db2-9a93-49e1-a13a-8ef316e805f7","name":"Default Suite","children":["3ac471c3-5332-41fd-9c72-d9fa3777e273"],"befores":[{"name":"post_CreateAuth","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1647408544497,"stop":1647408547295}],"afters":[],"links":[],"start":1647408544462,"stop":1647408557642}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/divyaramamurthy/IdeaProjects/Polaris/polaris-api-automation">
+        <classes>
+            <class name="TestSuites.DataStream.GETMetricsSummary">
+            <methods><include name="get_metricsSummary_statusCode"/></methods>
+        </class>
+        </classes>
+    </test>
+</suite>
