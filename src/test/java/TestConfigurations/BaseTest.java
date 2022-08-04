@@ -14,7 +14,8 @@ import org.testng.annotations.Test;
 
 public class BaseTest extends FrameworkUtility {
 
-    @BeforeSuite
+    //@BeforeSuite
+   // @Test
     public static void post_CreateAuth()
     {
         JSONObject jsonObject = returDefaultPayLoadObject(FrameworkConstants.POSTRequest_AUTH_DEFAULT_REQUEST);
@@ -28,14 +29,15 @@ public class BaseTest extends FrameworkUtility {
                 body(jsonObject.toJSONString()).
                 when().
                // post("http://dev-96224665.okta.com/api/v1/authn");
-                post("https://dev-96224665.okta.com/app/dev-96224665_polarisqa_1/exk3odv0g0lRnOw9B5d7/sso/saml");
+                post("https://dev-49364104.okta.com/app/dev-49364104_polarisssoqa_1/exk5r2e5m5z06cNb75d7/sso/saml");
         Assert.assertEquals(response.getStatusCode(), 200);
     }
 
-    @BeforeClass
+   // @BeforeClass
     public static void setup()
     {
-        RestAssured.baseURI = "http://34.93.23.216:82";
+       // RestAssured.baseURI = "http://34.93.23.216:82";
+        RestAssured.baseURI = "https://qa.polaris.thoughtworks-labs.net/";
         RestAssured.basePath = "/api";
        // RestAssured.port = 82 ;
 

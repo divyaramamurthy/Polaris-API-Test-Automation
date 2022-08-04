@@ -1,4 +1,4 @@
 {
-    "username" : "rohit.gupta",
-    "password" : "polarisdev"
+    "username" : "automation-viewer@polaris.example.com",
+    "password" : "welcome@123"
 }
